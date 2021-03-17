@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <title>YOKO'AIR !</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <!-- police -->
+    
+  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+  <header>
+      <h1 class="nom">YOKO'AIR <img src="/images/airplane_14718.ico" alt="icone avion"></h1>
+        
+      <h3 class="slogan">« La Tête dans les Nuages ! »</h3>
+   
+      <form class="destination">
+        <div class="form-row h-100 justify-content-center align-items-center">
+          <div class="col-3 align-items-center">Ville de Départ
+          <input type="text" class="form-control" placeholder="Paris, Bordeaux, ...">
+          </div>
+          <div class="col-3">Ville d'Arrivée
+          <input type="text" class="form-control" placeholder="Paris, Barcelonne, ...">
+          </div>
+        </div>
+      </form>
+
+    <form class="date">
+      <div class="form-row h-100 justify-content-center align-items-center">
+        <div class="col-3">Date de Départ
+          <input type="date" class="form-control" placeholder="date de Départ">
+        </div>
+        <div class="col-3">Date de Retour
+          <input type="date" class="form-control" placeholder="date de Retour">
+        </div>
+      </div>
+    </form>
+
+    <form class="participant">
+      <div class="form-row h-100 justify-content-center align-items-center">
+        <div class="col-2">Nombre d'adultes   
+          <select name="" id="adulte" class="custom-select">
+            <option selected></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </div>
+        <div class="col-2">Nombre d'enfants
+          <select name="" id="enfant" class="custom-select">
+            <option selected>Pas d'enfant</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </div>
+        <div class="col-2">Catégorie  
+          <select name="" id="categorie" class="custom-select">
+            <option selected></option>
+            <option value="éco">Classe économique</option>
+            <option value="affaire">Classe affaire</option>
+          </select>
+        </div>
+      </div>
+    </form>
+  
+
+      <div class="row h-100 justify-content-center">
+        <div class="col-5">
+        <input type="button" id="button" value="Lancer la recherche">
+        </div>
+      </div>
+   
+
+   
+    </header>
+
+    <section>
+
+      <p class="slogan2">Nous proposons différentes destinations pour découvrir le monde !</p>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <div class="card-body">
+                <img src="images/barcelone.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay">
+                <h5 class="card-title-long">Barcelone</h5>
+                <a href="https://fr.wikipedia.org/wiki/Barcelone" target="_blank" class="btn">Dès 80 €</a>
+              </div>
+            </div>
+          </div>
+        
+
+          <div class="col-4">
+            <div class="card-body">
+                <img src="images/tunis.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay">
+                <h5 class="card-title">Tunis</h5>
+                <a href="https://fr.wikipedia.org/wiki/Tunis" target="_blank" class="btn">Dès 90 €</a>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="col-4">
+            <div class="card-body">
+                <img src="images/dubai.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay">
+                <h5 class="card-title">Dubai</h5>
+                <a href="https://fr.wikipedia.org/wiki/Duba%C3%AF_(ville)" target="_blank" class="btn">Dès 300 €</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <div class="card-body">
+                <img src="images/londres.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay">
+                <h5 class="card-title">Londres</h5>
+                <a href="https://fr.wikipedia.org/wiki/Londres" target="_blank" class="btn">Dès 120 €</a>
+              </div>
+            </div>
+          </div>
+        
+
+          <div class="col-4">
+            <div class="card-body">
+                <img src="images/paris.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay">
+                <h5 class="card-title">Paris</h5>
+                <a href="https://www.paris.fr/" class="btn" target="_blank">Dès 55 €</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-4">
+            <div class="card-body">
+                <img src="images/philippines.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay">
+                <h5 class="card-title-long">Manille</h5>
+                <a href="https://fr.wikipedia.org/wiki/Manille" class="btn-long" target="_blank"> Dès 1200 €</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+    </section>
+<hr>
+<footer>
+<p class="copyr">
+  &copy - 2021 - S.Gaiton - <a href="#" target="_blank"> CGV</a>
+</p>
+
+
+</footer>
+    
+
+
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
